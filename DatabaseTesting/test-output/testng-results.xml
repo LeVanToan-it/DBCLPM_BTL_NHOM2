@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-17T17:42:26Z" name="Default suite" finished-at="2022-04-17T17:42:27Z" duration-ms="204">
+  <suite started-at="2022-04-19T08:54:19Z" name="Default suite" finished-at="2022-04-19T08:54:19Z" duration-ms="231">
     <groups>
     </groups>
-    <test started-at="2022-04-17T17:42:26Z" name="Default test" finished-at="2022-04-17T17:42:27Z" duration-ms="204">
-      <class name="com.dbclpm.group2.SPTesting">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.dbclpm.group2.SPTesting@3406472c]" started-at="2022-04-17T17:42:26Z" name="setup" finished-at="2022-04-17T17:42:27Z" duration-ms="156" status="PASS">
+    <test started-at="2022-04-19T08:54:19Z" name="Default test" finished-at="2022-04-19T08:54:19Z" duration-ms="231">
+      <class name="com.dbclpm.group2.SFTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.dbclpm.group2.SFTesting@45d2ade3]" started-at="2022-04-19T08:54:19Z" name="setup" finished-at="2022-04-19T08:54:19Z" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_storedProceduresSelectAllCustomerByCityExists()[pri:1, instance:com.dbclpm.group2.SPTesting@3406472c]" started-at="2022-04-17T17:42:27Z" name="test_storedProceduresSelectAllCustomerByCityExists" finished-at="2022-04-17T17:42:27Z" duration-ms="33" status="PASS">
+        <test-method signature="test_storeFunctionCustomerLevelExist()[pri:1, instance:com.dbclpm.group2.SFTesting@45d2ade3]" started-at="2022-04-19T08:54:19Z" name="test_storeFunctionCustomerLevelExist" finished-at="2022-04-19T08:54:19Z" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_storedProceduresSelectAllCustomerByCityExists -->
-        <test-method signature="test_storedProceduresSelectAllCustomerExists()[pri:1, instance:com.dbclpm.group2.SPTesting@3406472c]" started-at="2022-04-17T17:42:27Z" name="test_storedProceduresSelectAllCustomerExists" finished-at="2022-04-17T17:42:27Z" duration-ms="2" status="PASS">
+        </test-method> <!-- test_storeFunctionCustomerLevelExist -->
+        <test-method signature="test_storeFunctionCustomerLevelFromSQLStatement()[pri:2, instance:com.dbclpm.group2.SFTesting@45d2ade3]" started-at="2022-04-19T08:54:19Z" name="test_storeFunctionCustomerLevelFromSQLStatement" finished-at="2022-04-19T08:54:19Z" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_storedProceduresSelectAllCustomerExists -->
-        <test-method is-config="true" signature="shutdown()[pri:0, instance:com.dbclpm.group2.SPTesting@3406472c]" started-at="2022-04-17T17:42:27Z" name="shutdown" finished-at="2022-04-17T17:42:27Z" duration-ms="2" status="PASS">
+        </test-method> <!-- test_storeFunctionCustomerLevelFromSQLStatement -->
+        <test-method signature="test_storeFunctionCustomerLevelThroughStoreProcedure()[pri:3, instance:com.dbclpm.group2.SFTesting@45d2ade3]" started-at="2022-04-19T08:54:19Z" name="test_storeFunctionCustomerLevelThroughStoreProcedure" finished-at="2022-04-19T08:54:19Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_storeFunctionCustomerLevelThroughStoreProcedure -->
+        <test-method is-config="true" signature="shutdown()[pri:0, instance:com.dbclpm.group2.SFTesting@45d2ade3]" started-at="2022-04-19T08:54:19Z" name="shutdown" finished-at="2022-04-19T08:54:19Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutdown -->
-      </class> <!-- com.dbclpm.group2.SPTesting -->
+      </class> <!-- com.dbclpm.group2.SFTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

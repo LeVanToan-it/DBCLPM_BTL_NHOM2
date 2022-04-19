@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dbclpm.group2.SPTesting">
+      <class name="com.dbclpm.group2.SFTesting">
         <methods>
-          <include name="test_storedProceduresExists"/>
+          <include name="test_storeFunctionCustomerLevelFromSQLStatement"/>
           <include name="shutdown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.dbclpm.group2.SPTesting -->
+      </class> <!-- com.dbclpm.group2.SFTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
